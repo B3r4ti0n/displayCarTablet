@@ -6,7 +6,7 @@ tk = Tk()
 height = tk.winfo_screenheight()
 width = tk.winfo_screenwidth()
 #  size of the window where we show our website
-tk.attributes('-fullscreen', True)
+#tk.attributes('-fullscreen', True)
 
 btn = Button(tk, text='GPS', command=lambda: gps_page(width, height, tk))
 btn.pack()
