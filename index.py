@@ -1,16 +1,14 @@
 from tkinter import *
-import webview
+from src.gps_page import gps_page
 
 # define an instance of tkinter
 tk = Tk()
-
+height = tk.winfo_screenheight()
+width = tk.winfo_screenwidth()
 #  size of the window where we show our website
 tk.attributes('-fullscreen', True)
-height = tk.winfo_screenheight()
 
-width = tk.winfo_screenwidth()
-# Open website
-#webview.create_window('GPS', 'https://www.google.com/maps/dir/?api=1&travelmode=driving', height=height, width=width)
-#webview.start()
+btn = Button(tk, text='GPS', command=gps_page(width, height))
+btn.pack()
 
 tk.mainloop()
