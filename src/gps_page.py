@@ -8,4 +8,4 @@ def gps_page(width, height, window):
     :return:
     """
     window['bg'] = 'grey'
-    f.get_website('name', 'https://www.google.com/maps/dir/?api=1&travelmode=driving', width, height)
+    f.get_website('name', 'https://alexispas.bg', width, height)
