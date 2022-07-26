@@ -1,5 +1,4 @@
 from tkinter import *
-from src.music_widget import *
 from tools.function import *
 from src.gps_page import gps_page
 
@@ -17,11 +16,6 @@ def create_nav_bar(window=None, width=0, heigth=0):
             'window': nav_bar,
             'text': 'GPS',
             'command': lambda: gps_page()
-        },
-        {
-            'window': nav_bar,
-            'text': 'Music',
-            'command':lambda: subprocess.call(['alsamixer', '/'], shell=True)
         },
         {
             'window': nav_bar,
