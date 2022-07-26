@@ -1,7 +1,6 @@
 from tkinter import *
 import tkinter.font as font
 from src.gps_page import gps_page
-import webview
 
 # define an instance of tkinter
 tk = Tk()
@@ -15,7 +14,7 @@ tk.attributes('-fullscreen', True)
 f = font.Font(size=30)
 width_button = 10
 height_button = 2
-position_start_x = 0
+position_start_x = 2
 position_start_y = 0
 
 # label to contain buttons
@@ -47,7 +46,7 @@ settings = Button(
     nav_bar,
     text='Settings',
     anchor='center',
-    bg='blue',
+    bg='grey',
     activeforeground='cyan',
     activebackground='grey',
     width=width_button,
@@ -62,7 +61,7 @@ air_cond = Button(
     nav_bar,
     text='Climatiseur',
     anchor='center',
-    bg='blue',
+    bg='grey',
     activeforeground='cyan',
     activebackground='grey',
     width=width_button,
@@ -77,7 +76,7 @@ glass_pane = Button(
     nav_bar,
     text='Vitre',
     anchor='center',
-    bg='blue',
+    bg='grey',
     activeforeground='cyan',
     activebackground='grey',
     width=width_button,
@@ -92,7 +91,7 @@ sound = Button(
     nav_bar,
     text='Music',
     anchor='center',
-    bg='blue',
+    bg='grey',
     activeforeground='cyan',
     activebackground='grey',
     width=width_button,
