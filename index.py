@@ -11,18 +11,18 @@ width = tk.winfo_screenwidth()
 tk.attributes('-fullscreen', True)
 
 # setting to button to navigate in page
-f = font.Font(size=30)
+f = font.Font(size=25)
 width_button = 5
 height_button = 1
-position_start_x = 0
-position_start_y = 0
+position_start_x = 3
+position_start_y = 4
 
 # label to contain buttons
 nav_bar = Label(
     tk,
     bg='grey',
-    width=114,
-    height=5
+    width=59,
+    height=3
 )
 nav_bar.place(x=width/7, y=position_start_y+100)
 # button to show gps
@@ -38,8 +38,8 @@ gps = Button(
     height=height_button
 )
 gps['font'] = f
-gps.place(x=0, y=0)
-position_start_x += 200
+gps.place(x=position_start_x, y=position_start_y)
+position_start_x += 100
 
 # button to show settings
 settings = Button(
@@ -54,12 +54,12 @@ settings = Button(
 )
 settings['font'] = f
 settings.place(x=position_start_x, y=position_start_y)
-position_start_x += 200
+position_start_x += 110
 
 # button to show air conditioner settings
 air_cond = Button(
     nav_bar,
-    text='Climatiseur',
+    text='Clime',
     anchor='center',
     bg='grey',
     activeforeground='cyan',
@@ -69,7 +69,7 @@ air_cond = Button(
 )
 air_cond['font'] = f
 air_cond.place(x=position_start_x, y=position_start_y)
-position_start_x += 200
+position_start_x += 100
 
 # button to show glass pane controller panel
 glass_pane = Button(
@@ -84,7 +84,7 @@ glass_pane = Button(
 )
 glass_pane['font'] = f
 glass_pane.place(x=position_start_x, y=position_start_y)
-position_start_x += 200
+position_start_x += 100
 
 # button to show music controller panel
 sound = Button(
