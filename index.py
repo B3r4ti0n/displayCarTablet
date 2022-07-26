@@ -12,9 +12,9 @@ tk.attributes('-fullscreen', True)
 
 # setting to button to navigate in page
 f = font.Font(size=30)
-width_button = 10
-height_button = 2
-position_start_x = 2
+width_button = 5
+height_button = 1
+position_start_x = 0
 position_start_y = 0
 
 # label to contain buttons
