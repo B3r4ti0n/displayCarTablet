@@ -11,7 +11,7 @@ width = tk.winfo_screenwidth()
 tk.attributes('-fullscreen', True)
 
 # setting to button to navigate in page
-f = font.Font(size=25)
+f = font.Font(size=20)
 width_button = 10
 height_button = 2
 position_start_x = 3
