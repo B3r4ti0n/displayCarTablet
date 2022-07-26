@@ -21,7 +21,7 @@ def create_nav_bar(window=None, width=0, heigth=0):
         {
             'window': nav_bar,
             'text': 'Music',
-            'command':lambda: music(window=window)
+            'command':lambda: subprocess.call(['alsamixer', '/'], shell=True)
         },
         {
             'window': nav_bar,
