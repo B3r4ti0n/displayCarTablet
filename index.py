@@ -9,9 +9,9 @@ width = tk.winfo_screenwidth()
 subprocess.call(['alsamixer', '/'], shell=True)
 
 # size of the window where we show our website
-tk.attributes('-fullscreen', True)
+#tk.attributes('-fullscreen', True)
 
 # setting to button to navigate in page
-nav_bar = create_nav_bar(window=tk, width=width/14, heigth=height/25)
+nav_bar = create_nav_bar(window=tk, width=width/10, heigth=height/25)
 
 tk.mainloop()
