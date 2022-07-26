@@ -24,6 +24,11 @@ def create_nav_bar(window=None, width=0, heigth=0):
         },
         {
             'window': nav_bar,
+            'text': 'music',
+            'command': None
+        },
+        {
+            'window': nav_bar,
             'text': 'Climatiseur',
             'command': None
         },
