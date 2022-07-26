@@ -1,4 +1,3 @@
-from tkinter import *
 import tools.function as f
 
 

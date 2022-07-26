@@ -51,7 +51,6 @@ def create_buttons_nav_bar(buttons):
     """
 
     import tkinter.font as tk_font
-    f = tk_font.Font(size=20)
     column = 0
 
     for button in buttons:
@@ -60,6 +59,6 @@ def create_buttons_nav_bar(buttons):
             text=button['text'],
             command=button['command']
         )
-        button['font'] = f
+        button['font'] = tk_font.Font(size=20)
         button.grid(row=0, column=column)
         column += 1
