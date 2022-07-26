@@ -28,7 +28,7 @@ nav_bar.place(x=width/7, y=position_start_y+100)
 # button to show gps
 gps = Button(
     nav_bar,
-    text='GPS',
+    text=height,
     anchor='center',
     bg='grey',
     activeforeground='cyan',
@@ -44,7 +44,7 @@ position_start_x += 100
 # button to show settings
 settings = Button(
     nav_bar,
-    text='Settings',
+    text=width,
     anchor='center',
     bg='grey',
     activeforeground='cyan',
