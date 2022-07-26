@@ -10,6 +10,6 @@ width = tk.winfo_screenwidth()
 tk.attributes('-fullscreen', True)
 
 # setting to button to navigate in page
-nav_bar = create_nav_bar(window=tk, width=width/51.2, heigth=height/25)
+nav_bar = create_nav_bar(window=tk, width=width/68.2666666667, heigth=height/25)
 
 tk.mainloop()
