@@ -1,6 +1,7 @@
 from tkinter import *
 from tools.function import *
 from src.gps_page import gps_page
+from src.music_widget import *
 
 
 def create_nav_bar(window=None, width=0, heigth=0):
@@ -25,7 +26,7 @@ def create_nav_bar(window=None, width=0, heigth=0):
         {
             'window': nav_bar,
             'text': 'music',
-            'command': None
+            'command': lambda: music_widget(window, heigth*68.2666666667, width*25)
         },
         {
             'window': nav_bar,
