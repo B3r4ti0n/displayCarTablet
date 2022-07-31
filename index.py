@@ -1,4 +1,5 @@
 from tkinter import *
+from src.music_widget import *
 from tools.nav_bar import *
 import subprocess
 
